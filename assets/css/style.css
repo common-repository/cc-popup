@@ -1,0 +1,75 @@
+.cc-popup {
+	position: fixed;
+	z-index: 400;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	padding-left: 25px;
+	padding-right: 25px;
+	margin: auto;
+	overflow: auto;
+	display: none;
+}
+
+.cc-popup.cc-popup-block {
+	display: block;
+}
+
+#cc-popup-center {
+	height: 100vh;
+	display: table;
+	margin: auto;
+	font-size: 0;
+	/*optional setting for top spacing if you have sticky bars*/
+	padding-top: 150px;
+	padding-bottom: 150px;
+}
+
+#cc-popup-center:before {
+	content: '';
+	position: relative;
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+	width: 0;
+}
+
+#cc-popup-content {
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+	margin: auto;
+	background-color: #fff;
+	padding: 30px 20px;
+	font-size: 16px;
+}
+
+button.cc-popup-close {
+	position: absolute;
+	min-width: 40px;
+	min-height: 40px;
+	background-color: #0d0d0d;
+	padding: 5px 10px;
+	color: #fff;
+	top: -20px;
+	right: -20px;
+	cursor: pointer;
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	border-radius: 50px;
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+	-webkit-transition: all .2s;
+	-moz-transition: all .2s;
+	-ms-transition: all .2s;
+	-o-transition: all .2s;
+}
+
+button.cc-popup-close:hover {
+	-webkit-transform: scale(.9);
+	-moz-transform: scale(.9);
+	-ms-transform: scale(.9);
+	-o-transform: scale(.9);
+}

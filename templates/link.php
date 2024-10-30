@@ -1,0 +1,2 @@
+<?php if ( ! defined( 'ABSPATH' ) ) exit; ?>
+<?php if ( ! empty ( $url ) ) : ?> <a href="<?= $url; ?>"><?php endif; ?><?php if ( ! empty ( $link ) ) : ?> <?= $link; ?><?php endif; ?><?php if ( ! empty ( $url ) ) : ?></a><?php endif; ?>

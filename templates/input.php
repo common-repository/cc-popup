@@ -1,0 +1,2 @@
+<?php if ( ! defined( 'ABSPATH' ) ) exit; ?>
+<label><input type="<?= $type; ?>" name="<?= $name; ?>" value="<?= $value; ?>"<?php if ( $checked ) : ?> <?= $checked; ?> <?php endif; ?>/> <?= $label; ?></label><br />

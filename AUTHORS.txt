@@ -1,0 +1,5 @@
+This file contains the list of people involved in the development of CC-Popup along its history.
+
+Piotr Niewiadomski
+
+Great thanks to Clearcode <http://clearcode.cc> for allowing releasing CC-Popup as free software!
